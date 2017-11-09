@@ -24,3 +24,10 @@ transition: background 200ms ease;
 background: #af590a;
 cursor: pointer;
 }
+
+/* Selected button styling */
+#gform_wrapper_1 ul.gfield_radio li input[type="radio"]:checked + label {
+background: #FF983C;
+color: #fff;
+}
+
