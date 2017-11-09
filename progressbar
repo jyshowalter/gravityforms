@@ -1,5 +1,6 @@
 .gf_progressbar_percentage.percentbar_custom.percentbar_50 {
 border-radius: 24px;
 background-color: #e67e22 !important;
+color: #ffffff !important;
 transition: 150ms width ease;
 }
