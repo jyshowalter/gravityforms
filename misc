@@ -1,0 +1,11 @@
+/* Hide radio button */
+#gform_wrapper_1 ul.gfield_radio li input[type="radio"] {
+display: none !important;
+margin: 0;
+}
+
+/* Bold label */ 
+.gfield_label {
+font-weight: 600;
+font-size: 1.5rem;
+}
