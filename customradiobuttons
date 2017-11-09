@@ -1,4 +1,8 @@
-/* Radio button styling */
+#gform_wrapper_1 .gfield_radio li input[type="radio"] {
+display: none; 
+margin: 0;
+}
+
 #gform_wrapper_1 ul.gfield_radio li input[type="radio"] + label {
 border-radius: 5px;
 padding: 15px 25px;
@@ -12,22 +16,19 @@ background-color: #e67e22;
 box-shadow: 0px 5px 0px 0px #CD6509;
 }
 
-/* Button sizing */
 #gform_wrapper_1 ul.gfield_radio li input[type="radio"] + label {
 display: block;
 text-align: center;
 transition: background 200ms ease;
 }
 
-/* Cursor on hover */
-#gform_wrapper_1 ul.gfield_radio li input[type="radio"] + label:hover {
-background: #af590a;
-cursor: pointer;
-}
-
-/* Selected button styling */
 #gform_wrapper_1 ul.gfield_radio li input[type="radio"]:checked + label {
 background: #FF983C;
 color: #fff;
+}
+
+#gform_wrapper_1 ul.gfield_radio li input[type="radio"] + label:hover {
+background: #af590a;
+cursor: pointer;
 }
 
