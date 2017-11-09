@@ -1,6 +1,6 @@
 /* Hide radio button */
-#gform_wrapper_1 ul.gfield_radio li input[type="radio"] {
-display: none !important;
+#gform_wrapper_1 .gfield_radio li input[type="radio"] {
+display: none; 
 margin: 0;
 }
 
