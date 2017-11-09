@@ -1,3 +1,4 @@
+/* Progress bar styling */
 .gf_progressbar_percentage.percentbar_custom.percentbar_50 {
 border-radius: 24px;
 background-color: #e67e22 !important;
